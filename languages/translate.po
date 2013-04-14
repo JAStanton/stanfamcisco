@@ -1,0 +1,188 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: Andrew Wong <hello@bluchic.com>\n"
+"Language-Team: \n"
+"MIME-Version: 5.0.1\n"
+"Content-Type: text/plain; charset=iso-8859-1\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "Search"
+msgstr ""
+
+msgid "Error 404 - Not Found"
+msgstr ""
+
+msgid "404 Not Found"
+msgstr ""
+
+msgid "Archives by month"
+msgstr ""
+
+msgid "Archives by category"
+msgstr ""
+
+msgid "Archive of"
+msgstr ""
+
+msgid "Posts Tagged"
+msgstr ""
+
+msgid "archive"
+msgstr ""
+
+msgid "Author Archive"
+msgstr ""
+
+msgid "Blog Archives"
+msgstr ""
+
+msgid "You have come to a page that is either not existing or already been removed"
+msgstr ""
+
+msgid "No posts by this author"
+msgstr ""
+
+msgid "About"
+msgstr ""
+
+msgid "bookmark"
+msgstr ""
+
+msgid "Copyright"
+msgstr ""
+
+msgid "Powered by"
+msgstr ""
+
+msgid "Designed by"
+msgstr ""
+
+msgid "0 comment"
+msgstr ""
+
+msgid "1 comment"
+msgstr ""
+
+msgid "% comments"
+msgstr ""
+
+msgid "You must be"
+msgstr ""
+
+msgid "logged in"
+msgstr ""
+
+msgid "to post a comment"
+msgstr ""
+
+msgid "Logged in as"
+msgstr ""
+
+msgid "Log out of this account"
+msgstr ""
+
+msgid "Log out &raquo;"
+msgstr ""
+
+msgid "Comments are closed"
+msgstr ""
+
+msgid "This post is password protected. Enter the password to view comments"
+msgstr ""
+
+msgid "on"
+msgstr ""
+
+msgid "Pingbacks &amp; Trackbacks on"
+msgstr ""
+
+msgid "Not Found"
+msgstr ""
+
+msgid "Name"
+msgstr ""
+
+msgid "Email"
+msgstr ""
+
+msgid "Website"
+msgstr ""
+
+msgid "Comment"
+msgstr ""
+
+msgid "Profile"
+msgstr ""
+
+msgid "Address"
+msgstr ""
+
+msgid "Twitter"
+msgstr ""
+
+msgid "Pages"
+msgstr ""
+
+msgid "Categories"
+msgstr ""
+
+msgid "categories"
+msgstr ""
+
+msgid "Comments"
+msgstr ""
+
+msgid "Searching for"
+msgstr ""
+
+msgid "This entry is writen by"
+msgstr ""
+
+msgid "has writen"
+msgstr ""
+
+msgid "entries. You can find all other entries by"
+msgstr ""
+
+msgid "More related articles"
+msgstr ""
+
+msgid "General settings"
+msgstr ""
+
+msgid "Extra inputs settings"
+msgstr ""
+
+msgid "404 page settings"
+msgstr ""
+
+msgid "Select"
+msgstr ""
+
+msgid "Upload an image"
+msgstr ""
+
+msgid "and copy-paste the file URL or enter an image URL"
+msgstr ""
+
+msgid "(including http://)"
+msgstr ""
+
+msgid "Preferable size at"
+msgstr ""
+
+msgid "pixel"
+msgstr ""
+
+msgid "Upload"
+msgstr ""
+
+msgid "Save settings"
+msgstr ""
+
+msgid "Reset all settings"
+msgstr ""
+

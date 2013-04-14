@@ -29,12 +29,12 @@
 
   <?php echo ace_heading(); ?>
 
-  <nav class="nav">
-    <?php if (function_exists('wp_nav_menu') ) { wp_nav_menu('theme_location=top_menu&container_class=menu&show_home=1'); } else {?>
-    <ul>
-      <?php wp_list_pages('title_li='); ?>
-    </ul>
-    <?php } ?>
+<bar class="nav">
+  <?php if (function_exists('wp_nav_menu') ) { wp_nav_menu('theme_location=top_menu&container_class=menu&show_home=1'); } else {?>
+  <ul>
+    <?php wp_list_pages('title_li='); ?>
+  </ul>
+  <?php } ?>
 
     <form method="get" class="header-form" action="<?php bloginfo('url'); ?>">
       <fieldset>
@@ -42,7 +42,7 @@
         <input type="submit" class="uniform" value="<?php _e('Search','ace'); ?>" />
       </fieldset>
     </form>
-  </nav><!-- .nav -->
+</bar>
 
 </header><!-- .header -->
 

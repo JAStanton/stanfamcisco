@@ -33,9 +33,11 @@
 <header class="header">
 
 <div class="logo">
-  <div class="ribbon-bottom"></div>
-  <div class="main" style="background-position: -8px -36px; background-size: 103%"></div>
-  <div class="ribbon-top"></div>
+  <a href="<?php echo home_url(); ?>">
+    <div class="ribbon-bottom"></div>
+    <div class="main" style="background-position: -8px -36px; background-size: 103%"></div>
+    <div class="ribbon-top"></div>
+  </a>
 </div>
 
 

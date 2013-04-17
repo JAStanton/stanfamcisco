@@ -1,4 +1,4 @@
-<bar>
+<bar class="footer">
   <ul>
     <li>
       <a>Thats all folks!</a>

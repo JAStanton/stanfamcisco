@@ -27,9 +27,17 @@
 
 <header class="header">
 
+<div class="logo">
+  <div class="ribbon-bottom"></div>
+  <div class="main" style="background-position: -8px -36px; background-size: 103%"></div>
+  <div class="ribbon-top"></div>
+</div>
+
+
+
   <?php echo ace_heading(); ?>
 
-<bar class="nav">
+<!-- <bar class="nav">
   <?php if (function_exists('wp_nav_menu') ) { wp_nav_menu('theme_location=top_menu&container_class=menu&show_home=1'); } else {?>
   <ul>
     <?php wp_list_pages('title_li='); ?>
@@ -43,7 +51,7 @@
       </fieldset>
     </form>
 </bar>
-
+ -->
 </header><!-- .header -->
 
 <section class="container">

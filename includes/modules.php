@@ -52,7 +52,7 @@ remove_action('wp_head', 'wp_generator');
 // Add "Home" in menu
 // ==================================================================
 function home_page_menu( $args ) {
-  $args['show_home'] = true;
+  $args['show_home'] = false;
   return $args;
 }
 add_filter( 'wp_page_menu_args', 'home_page_menu' );
@@ -162,7 +162,7 @@ add_filter('wp_get_attachment_link' , 'add_slimbox_rel');
 function get_pagination($args = null) {
 $defaults = array(
   'page' => null,
-  'pages' => null, 
+  'pages' => null,
   'range' => 2,
   'gap' => 2,
   'anchor' => 1,
@@ -181,7 +181,7 @@ if (!$page && !$pages) {
   $pages = intval(ceil($wp_query->found_posts / $posts_per_page));
 }
 $output = "";
-if ($pages > 1) {	
+if ($pages > 1) {
   $output .= "$before";
   $ellipsis = "<li><span class=\"current-page radius-4\">...</span></li>";
 if ($page > 1 && !empty($previouspage)) {
@@ -193,23 +193,23 @@ $block_high = max($page + $range, $min_links);
 $left_gap = (($block_min - $anchor - $gap) > 0) ? true : false;
 $right_gap = (($block_high + $anchor + $gap) < $pages) ? true : false;
 if ($left_gap && !$right_gap) {
-  $output .= sprintf('%s%s%s', 
-  pagination(1, $anchor), 
-  $ellipsis, 
+  $output .= sprintf('%s%s%s',
+  pagination(1, $anchor),
+  $ellipsis,
   pagination($block_min, $pages, $page)
   );
 }
 else if ($left_gap && $right_gap) {
-  $output .= sprintf('%s%s%s%s%s', 
-  pagination(1, $anchor), 
-  $ellipsis, 
-  pagination($block_min, $block_high, $page), 
-  $ellipsis, 
+  $output .= sprintf('%s%s%s%s%s',
+  pagination(1, $anchor),
+  $ellipsis,
+  pagination($block_min, $block_high, $page),
+  $ellipsis,
   pagination(($pages - $anchor + 1), $pages)
   );
 }
 else if ($right_gap && !$left_gap) {
-  $output .= sprintf('%s%s%s', 
+  $output .= sprintf('%s%s%s',
   pagination(1, $block_high, $page),
   $ellipsis,
   pagination(($pages - $anchor + 1), $pages)
@@ -232,8 +232,8 @@ return $output;
 function pagination($start, $max, $page = 0) {
 $output = "";
 for ($i = $start; $i <= $max; $i++) {
-  $output .= ($page === intval($i)) 
-  ? "<li><span class=\"current-page radius-4\">$i</span></li>" 
+  $output .= ($page === intval($i))
+  ? "<li><span class=\"current-page radius-4\">$i</span></li>"
   : "<li><a href=\"" . get_pagenum_link($i) . "\" class=\"radius-4\">$i</a></li>";
 }
 return $output;

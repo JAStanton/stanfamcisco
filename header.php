@@ -14,7 +14,12 @@
 <link rel="shortcut icon" href="<?php if( get_option("ace_favicon") ) { echo get_option("ace_favicon"); } else { echo bloginfo('stylesheet_directory'); echo "/images/favicon.gif"; } ?>?<?php echo date('l jS \of F Y h:i:s A'); ?>" type="image/x-icon" />
 <link rel="stylesheet" href="<?php bloginfo('stylesheet_url'); ?>?<?php echo date('l jS \of F Y h:i:s A'); ?>" media="screen" type="text/css" />
 <link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/stylesheet.css?<?php echo date('l jS \of F Y h:i:s A'); ?>" media="all" type="text/css" />
-<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Lora:400,400italic|Muli:400,400italic|Montserrat" media="all" type="text/css" />
+<link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/font-awesome.css">
+<!--[if IE 7]>
+<link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/font-awesome-ie7.css">
+<![endif]-->
+<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Lora:400,400italic|Muli:400,400italic|Petit+Formal+Script" media="all" type="text/css" />
+
 <!--[if lt IE 7]><script src="http://ie7-js.googlecode.com/svn/version/2.1(beta4)/IE7.js"></script><![endif]-->
 <!--[if lt IE 8]><script src="http://ie7-js.googlecode.com/svn/version/2.1(beta4)/IE8.js"></script><![endif]-->
 <!--[if lt IE 9]><script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
@@ -37,21 +42,14 @@
 
   <?php echo ace_heading(); ?>
 
-<!-- <bar class="nav">
-  <?php if (function_exists('wp_nav_menu') ) { wp_nav_menu('theme_location=top_menu&container_class=menu&show_home=1'); } else {?>
+<div class="nav">
+  <?php if (function_exists('wp_nav_menu') ) { wp_nav_menu('menu="main"&theme_location=top_menu&container_class=menu'); } else {?>
   <ul>
     <?php wp_list_pages('title_li='); ?>
   </ul>
   <?php } ?>
+</div>
 
-    <form method="get" class="header-form" action="<?php bloginfo('url'); ?>">
-      <fieldset>
-        <input type="text" name="s" class="header-text uniform" size="15" title="<?php _e('Search','ace'); ?>" />
-        <input type="submit" class="uniform" value="<?php _e('Search','ace'); ?>" />
-      </fieldset>
-    </form>
-</bar>
- -->
 </header><!-- .header -->
 
 <section class="container">
